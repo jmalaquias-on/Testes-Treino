@@ -2,7 +2,7 @@
     "name": "multiplo-environments",
     "version": "1.0.0",
     "scripts": {
-        "build": "npm install",
+        "build": "npm install cypress",
         "cypress:verify": "npx cypress verify",
         "cypress:run": "npx cypress run",
         "cy:open": "npx cypress open --config chromeWebSecurity=false"
