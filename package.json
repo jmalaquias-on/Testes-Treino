@@ -4,7 +4,7 @@
     "scripts": {
         "build": "npm install -g cypress --force",
         "cypress:verify": "npx cypress verify",
-        "cypress:run": "npx cypress run --reporter junit --reporter-options mochaFile=cypress/reports/junit/test-results-[hash].xml,toConsole=true",
+        "cypress:run": "npx cypress run",
         "cy:open": "npx cypress open --config chromeWebSecurity=false"
     }
 }
