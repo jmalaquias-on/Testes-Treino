@@ -2,7 +2,7 @@
     "name": "multiplo-environments",
     "version": "1.0.0",
     "scripts": {
-        "build": "npm run build",
+        "build": "npm install",
         "cypress:verify": "npx cypress verify",
         "cypress:run": "npx cypress run --reporter junit --reporter-options mochaFile=cypress/reports/junit/test-results-[hash].xml,toConsole=true",
         "cy:open": "npx cypress open --config chromeWebSecurity=false"
