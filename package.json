@@ -1,9 +1,22 @@
 {
-    "name": "multiplo-environments",
-    "version": "1.0.0",
-    "scripts": {
-        "cypress:verify": "npx cypress verify",
-        "cypress:run": "npx cypress run",
-        "cy:open": "npx cypress open --config chromeWebSecurity=false"
-    }
+  "name": "multiplo-environments",
+  "version": "1.0.0",
+  "scripts": {
+    "cypress:verify": "npx cypress verify",
+    "cypress:run": "npx cypress run",
+    "cy:open": "npx cypress open --config chromeWebSecurity=false"
+  },
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmalaquias-on/Testes-Treino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmalaquias-on/Testes-Treino/issues"
+  },
+  "homepage": "https://github.com/jmalaquias-on/Testes-Treino#readme",
+  "description": "Teste CI Azure Devops"
 }
